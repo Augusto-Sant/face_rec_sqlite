@@ -7,11 +7,11 @@ if __name__ == "__main__":
     # Create two daemon threads
     api_thread = threading.Thread(
         target=start_uvicorn,
-        args=("1",),
         daemon=True,
     )
     update_worker_thread = threading.Thread(
-        target=update_worker, args=("2",), daemon=True
+        target=update_worker,
+        daemon=True,
     )
 
     # Start the threads

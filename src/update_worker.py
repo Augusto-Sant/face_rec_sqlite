@@ -1,3 +1,6 @@
+import time
+
+
 def update_worker():
     while True:
-        pass
+        time.sleep(30)

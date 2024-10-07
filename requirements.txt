@@ -1,3 +1,5 @@
 deepface
+uvicorn
 fastapi
 sqlalchemy
+opencv-python
